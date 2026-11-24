@@ -1,0 +1,87 @@
+{
+  "indexed_jobs": 735,
+  "sources": [
+    {
+      "source": "greenhouse",
+      "board": "cloudflare",
+      "company": "Cloudflare",
+      "last_success": "2026-11-24T23:14:20.457229+00:00",
+      "last_attempt": "2026-11-24T23:14:20.457229+00:00",
+      "status": "ok",
+      "count": 512,
+      "error": null
+    },
+    {
+      "source": "lever",
+      "board": "collate",
+      "company": "Collate",
+      "last_success": "2026-11-24T23:14:25.480786+00:00",
+      "last_attempt": "2026-11-24T23:14:25.480786+00:00",
+      "status": "ok",
+      "count": 17,
+      "error": null
+    },
+    {
+      "source": "greenhouse",
+      "board": "discord",
+      "company": "Discord",
+      "last_success": "2026-11-24T23:14:21.476261+00:00",
+      "last_attempt": "2026-11-24T23:14:21.476261+00:00",
+      "status": "ok",
+      "count": 29,
+      "error": null
+    },
+    {
+      "source": "greenhouse",
+      "board": "figma",
+      "company": "Figma",
+      "last_success": "2026-11-24T23:14:23.167047+00:00",
+      "last_attempt": "2026-11-24T23:14:23.167047+00:00",
+      "status": "ok",
+      "count": 146,
+      "error": null
+    },
+    {
+      "source": "lever",
+      "board": "ridezum",
+      "company": "Zūm",
+      "last_success": "2026-11-24T23:14:24.513583+00:00",
+      "last_attempt": "2026-11-24T23:14:24.513583+00:00",
+      "status": "ok",
+      "count": 31,
+      "error": null
+    }
+  ],
+  "search_measurements": [
+    {
+      "query": "software engineer",
+      "results": 610,
+      "median_ms": 34.367,
+      "runs": 10
+    },
+    {
+      "query": "python",
+      "results": 166,
+      "median_ms": 6.789,
+      "runs": 10
+    },
+    {
+      "query": "data engineer",
+      "results": 706,
+      "median_ms": 38.183,
+      "runs": 10
+    },
+    {
+      "query": "react",
+      "results": 23,
+      "median_ms": 1.844,
+      "runs": 10
+    },
+    {
+      "query": "machine learning",
+      "results": 152,
+      "median_ms": 6.038,
+      "runs": 10
+    }
+  ]
+}
