@@ -1,0 +1,22 @@
+name: Live employer benchmark
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 15 * * 1'
+permissions:
+  contents: read
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python -m backend.ingest
+      - run: python -m scripts.benchmark > benchmark.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: live-benchmark
+          path: benchmark.json
